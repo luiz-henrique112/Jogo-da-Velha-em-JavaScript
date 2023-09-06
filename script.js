@@ -22,7 +22,7 @@ if (winner) {
   // Se houver um vencedor
   const alerta = setTimeout(function() {
     alert('Winner: ' + winner); // Exibe um alerta com o vencedor
-  }, 30);
+  }, 25);
   
   if (alerta) {
     initializeBoard(); // Reinicializa o tabuleiro, causando um efeito restart no jogo
